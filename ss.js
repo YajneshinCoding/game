@@ -32,6 +32,7 @@ nw.addEventListener("click", () => {
     userScorep.innerText = userScore;
     compScore=0;
     compScorep.innerText = compScore;
+    msg.style.backgroundColor = "rgb(13, 224, 224)";
     msg.innerText = "Your Move";
     fin.classList.add("hide");
 finn.classList.add("hide");

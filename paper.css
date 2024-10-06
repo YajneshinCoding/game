@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 62, 2);
+    color: rgb(236, 248, 6);
+    height: 4rem;
+    line-height: 5rem; /*vertical spacing */
+
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover; /*cover image to given size */
+    border-radius: 50%; 
+    /* cirle */
+}
+.choices{
+    display: flex;
+    /* horizontal arrangement */
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* gap betweem each element */
+    margin-top: 1rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    gap:5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 1rem;
+}
+#msg{
+    background-color: rgb(13, 224, 224);
+    color: rgb(8, 7, 11);
+    font-size: 1rem;
+    display: inline;
+    /* to restrict bgcolor to text */
+    padding: 1rem;
+    border-radius: 40%;
+    font-weight: 700;
+}
+.finalWinner{
+    
+    height: 78px;
+    width: 848px;
+    border: 30px;
+    font-size: 60px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    
+    /* line-height:
+     30rem; */
+}
+.finWin{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.newGam{
+
+    /* line-height: 6rem; */
+    margin-top: 30px;
+
+}
+.new{
+    height: 48px;
+    width: 548px;
+    font-size: 40px;
+    background-color: rgb(3, 103, 70);
+    border-radius: 20px;
+    color: rgb(255, 255, 135);
+}
+.hide{
+    display: none;
+}
+.finalDisplay{
+    margin:0;
+}
+.stop{
+    pointer-events: none;
+}
+.str{
+    margin-top: 30px;
+}
+.start{
+    height:38px;
+    width: 348px;
+    font-size: 30px;
+    background-color: rgb(224, 129, 13);
+    border-radius: 20px;
+}
+@media screen and (max-width:600px){
+    *{
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    .str{
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        background-color: rgb(24, 62, 2);
+        color: rgb(236, 248, 6);
+        height: 7rem;
+        line-height: 5rem; /*vertical spacing */
+        width: 542px;
+        font-size: 40px;
+    
+    }
+    .str{
+        margin-top: 50px;
+        width: 540px;
+    }
+    .start{
+        height: 58px;
+        width: 328px;
+        font-size: 36px;
+        background-color: rgb(224, 129, 13);
+        border-radius: 20px;
+    }
+    .choices{
+        display: flex;
+        /* horizontal arrangement */
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        /* gap betweem each element */
+        margin-top: 4rem;
+        width: 540px;
+    }
+    .choice{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    img{
+        height: 130px;
+        width: 130px;
+        object-fit: cover; /*cover image to given size */
+        border-radius: 50%; 
+        /* cirle */
+    }
+    .score-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 4rem;
+        gap:5rem;
+        width: 540px;
+    }
+    .msg-container{
+        margin-top: 6rem;
+        width: 540px;
+    }
+    #msg{
+        background-color: rgb(13, 224, 224);
+        color: rgb(8, 7, 11);
+        font-size: 23px;
+        display: inline;
+        /* to restrict bgcolor to text */
+        padding: 1rem;
+        border-radius: 40%;
+        font-weight: 700;
+    }
+    .finWin{
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        width: 540px;
+    
+    }
+    .finalWinner{
+    
+        height: 148px;
+        width: 540px;
+        border: 30px;
+        font-size: 50px;
+        background-color: aquamarine;
+        border-radius: 30px;
+        
+        /* line-height:
+         30rem; */
+    }
+    .newGam{
+
+        /* line-height: 6rem; */
+        margin-top: 60px;
+        width: 540px;
+    
+    }
+    .new{
+        height: 78px;
+        width: 348px;
+        font-size: 40px;
+        background-color: rgb(3, 103, 70);
+        border-radius: 20px;
+        color: rgb(255, 255, 135);
+    }
+    /* img:hover{
+        background-color: black;
+        cursor: pointer;
+    } */
+
+}
+
+

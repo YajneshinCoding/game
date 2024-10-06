@@ -54,7 +54,7 @@ img{
     font-size: 4rem;
 }
 .msg-container{
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 #msg{
     background-color: rgb(13, 224, 224);
@@ -79,7 +79,7 @@ img{
      30rem; */
 }
 .finWin{
-    margin-top: 20px;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
 

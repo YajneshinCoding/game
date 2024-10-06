@@ -32,6 +32,7 @@ nw.addEventListener("click", () => {
     userScorep.innerText = userScore;
     compScore=0;
     compScorep.innerText = compScore;
+    msg.innerText = `Your Move`
     fin.classList.add("hide");
 finn.classList.add("hide");
     

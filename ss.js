@@ -31,6 +31,7 @@ function addon(){
             
             a = input.value;
             enter.classList.add("hide");
+            dis.classList.remove("stop");
             
          }
          input.value = "";
@@ -42,7 +43,7 @@ start.addEventListener("click",()=> {
     enter.classList.remove("hide")
     // a=prompt("Enter the winning points");
     addon();
-    dis.classList.remove("stop");
+    
     
 })
 nw.addEventListener("click", () => {

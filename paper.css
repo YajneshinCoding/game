@@ -117,6 +117,24 @@ img{
     background-color: rgb(224, 129, 13);
     border-radius: 20px;
 }
+.enter{
+    margin-top: 30px;
+
+}
+#input-box{
+    height:38px;
+    width: 348px;
+    font-size: 30px;
+    background-color: rgb(121, 241, 116);
+    /* border-radius: 20px; */
+}
+.add{
+    height:38px;
+    width: 48px;
+    font-size: 20px;
+    background-color: rgb(224, 129, 13);
+    border-radius: 10px;
+}
 @media screen and (max-width:600px){
     *{
         margin:0;
@@ -242,9 +260,27 @@ img{
         justify-content: center;
         margin-right: 0;
     }
-    
+    .enter{
+        margin-top: 50px;
+        width: cover;
+    }
+    #input-box{
+        height: 58px;
+        width: 290px;
+        font-size: 36px;
+        background-color:rgb(121, 241, 116);
+        
+    }
+    .add{
+        height: 58px;
+        width: 58px;
+        font-size: 26px;
+        background-color: rgb(224, 129, 13);
+        border-radius: 10px;
+}
     
 
 }
+
 
 

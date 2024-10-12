@@ -39,6 +39,7 @@ function addon(){
 // setTimeout(a,10000)
 start.addEventListener("click",()=> {
     srt.classList.add("hide")
+    enter.classList.remove("hide")
     // a=prompt("Enter the winning points");
     addon();
     dis.classList.remove("stop");

@@ -133,13 +133,13 @@ img{
         color: rgb(236, 248, 6);
         height: 7rem;
         line-height: 5rem; /*vertical spacing */
-        width: 542px;
+        width: cover;
         font-size: 40px;
     
     }
     .str{
         margin-top: 50px;
-        width: 540px;
+        width: cover;
     }
     .start{
         height: 58px;
@@ -156,7 +156,7 @@ img{
         gap: 1rem;
         /* gap betweem each element */
         margin-top: 4rem;
-        width: 540px;
+        width: cover;
     }
     .choice{
         height: 150px;
@@ -181,11 +181,11 @@ img{
         font-size: 2rem;
         margin-top: 4rem;
         gap:5rem;
-        width: 540px;
+        width: cover;
     }
     .msg-container{
         margin-top: 6rem;
-        width: 540px;
+        width: cover;
     }
     #msg{
         background-color: #0de0e0;
@@ -201,7 +201,7 @@ img{
         margin-top: 60px;
         justify-content: center;
         align-items: center;
-        width: 540px;
+        width: cover;
     
     }
     .finalWinner{
@@ -220,7 +220,7 @@ img{
 
         /* line-height: 6rem; */
         margin-top: 60px;
-        width: 540px;
+        width: cover;
     
     }
     .new{
@@ -235,6 +235,15 @@ img{
         background-color: black;
         cursor: pointer;
     } */
+    .full{
+        height: cover;
+        width: cover;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+    
+    
 
 }
 

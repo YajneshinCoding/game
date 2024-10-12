@@ -14,14 +14,33 @@ let start =  document.querySelector(".start");
 let srt =  document.querySelector(".str");
 let b=true;
 let a;
+let input = document.querySelector("#input-box");
+let add = document.querySelector(".add");
+let enter = document.querySelector(".enter");
 fin.classList.add("hide");
 finn.classList.add("hide");
 srt.classList.remove("hide");
 
+function addon(){
+    add.addEventListener("click", ()=> {
+        if (input.value==='') {
+            alert("You must write something");
+            exit();
+         }
+         else{
+            
+            a = input.value;
+            enter.classList.add("hide");
+            
+         }
+         input.value = "";
+    });};
+
 // setTimeout(a,10000)
 start.addEventListener("click",()=> {
     srt.classList.add("hide")
-    a=prompt("Enter the winning points");
+    // a=prompt("Enter the winning points");
+    addon();
     dis.classList.remove("stop");
     
 })

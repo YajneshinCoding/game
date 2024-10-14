@@ -29,6 +29,7 @@ function addon(){
          }
          else if (!Number.isInteger(Number(input.value))) {
             alert("Please enter a valid integer");
+            input.value = "";
             exit();
         }
         

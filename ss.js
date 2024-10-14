@@ -30,13 +30,14 @@ function addon(){
          else if (!Number.isInteger(Number(input.value))) {
             alert("Please enter a valid integer");
             input.value = "";
-            exit();
+            // exit();
         }
         else if (input.value==='0') {
             alert("0 is not allowed!");
             input.value = "";
-            exit();
+            // exit();
         }
+        
         
         
          else{

@@ -32,6 +32,12 @@ function addon(){
             input.value = "";
             exit();
         }
+        else if (input.value==='0') {
+            alert("0 is not allowed!");
+            input.value = "";
+            exit();
+        }
+        
         
          else{
             

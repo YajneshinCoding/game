@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0, 1);
+    font-size: 8vmin;
+    color: brown;
+    background-color: antiquewhite;
+
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 100rem;
+    border: none;
+}
+#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 100rem;
+    border: none;
+}
+#msg{
+    color: rgb(89, 101, 24);
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 20vmin;
+
+}
+.hide{
+    display: none;
+}
+h1{
+    background-color: rgb(178, 11, 229);
+    height: 50px;
+    font-size: 47px;
+}
+.full{
+    height: cover;
+    width: cover;
+}
+@media screen and (max-width:600px){
+    h1{
+        background-color: rgb(178, 11, 229);
+        height: 100px;
+        width: cover;
+        font-size: 70px;
+    }
+    .container{
+        height: 70vh;
+        width: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:1.5vmin;
+    }
+    .game{
+        margin-top: 50px;
+        height: 86vmin;
+        width: 86vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:1.5vmin;
+    
+    }
+    .box{
+        height: 26vmin;
+        width: 26vmin;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 0 1rem rgba(0,0,0, 1);
+        font-size: 10vmin;
+        color: brown;
+        background-color: antiquewhite;
+    
+    }
+    #reset{
+        height: 100px;
+        width: 300px;
+        padding: 1rem;
+        font-size: 3.25rem;
+        background-color: blueviolet;
+        color: aqua;
+        border-radius: 5rem;
+        border: none;
+    }
+    .msg-container{
+        height: 40vmin;
+        width: cover;
+    
+    }
+    #msg{
+        color: rgb(89, 101, 24);
+        font-size: 13vmin;
+    }
+    #new{
+        height: 100px;
+        width: 300px;
+        padding: 1rem;
+        margin-top: 40px;
+        font-size: 2.25rem;
+        background-color: blueviolet;
+        color: aqua;
+        border-radius: 100rem;
+        border: none;
+    }
+}

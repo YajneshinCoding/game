@@ -64,7 +64,7 @@ h1{
 }
 .button{
     height: 300px;
-    width: 530px;
+    width: 510px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -74,7 +74,7 @@ h1{
     
 }
 .select{
-    margin-top: 100px;
+    margin-top: 80px;
     width: cover;
     display: flex;
     flex-wrap: wrap;
@@ -86,11 +86,11 @@ h1{
 }
 .player{
     height: 250px;
-    width: 492px;
+    width: 473px;
     margin-top: 25px;
    
     position: center;
-    font-size: 97px;
+    font-size: 93px;
     background-color: bisque;
     border-radius: 40px;
     

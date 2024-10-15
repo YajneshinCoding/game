@@ -61,6 +61,7 @@ h1{
     height: 315px;
     /* background-color: rgb(112, 8, 231); */
     font-size: 51px;
+    background-size:fit-content;
 }
 .button{
     height: 300px;

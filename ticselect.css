@@ -60,7 +60,7 @@ h1{
     width: cover;
 }
 h1{
-    height: 297px;
+    height: fit-content;
     background-color: brown;
     font-size: 78px;
 }

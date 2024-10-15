@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(157, 39, 220);
+    text-align: center;
+    align-content: center;
+}
+h1{
+    height: 250px;
+    background-color:rgb(0, 245, 57);
+    font-size: 70px;
+    color: rgb(40, 39, 46);
+
+}
+.select{
+    margin-top: 50px;
+    width: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+        
+ 
+}
+.player{
+    height: 100px;
+    width: 700px;
+    margin-top: 25px;
+   color: aqua;
+    position: center;
+    font-size: 70px;
+    background-color: rgb(218, 73, 90);
+    border-radius: 40px;
+    
+
+}
+.button:hover{
+    background-color: black;
+}
+
+.button{
+    height: 150px;
+    width: 742px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 50px;
+    
+}
+@media screen and (max-width:600px){
+.full{
+    height: cover;
+    width: cover;
+}
+h1{
+    height: 297px;
+    /* background-color: rgb(112, 8, 231); */
+    font-size: 78px;
+}
+.button{
+    height: 300px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 50px;
+    
+}
+.select{
+    margin-top: 80px;
+    width: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+        
+ 
+}
+.player{
+    height: 250px;
+    width: 473px;
+    margin-top: 25px;
+   
+    position: center;
+    font-size: 70px;
+    font-weight: 700;
+    /* background-color: bisque; */
+    border-radius: 40px;
+    
+
+}
+}

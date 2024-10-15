@@ -82,7 +82,7 @@ const showWinner = (winner) => {         //To display winner
         m.innerText = "You WON";
     }
     else{
-        m.innerText = `You LOST, Computer wins`;
+        m.innerText = `You LOST, Device wins`;
     }
     mc.classList.remove("hide");
     disable()
